@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #ECF6FE;
+    font-family: sans-serif;
+    color: #381664;
+}
+#main #page1{
+    padding: 20px;
+}
+#main #page1 #header{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:  #440A8F0F;
+    width: 80%;
+    padding: 10px;
+    border-radius: 16px;
+}
+#main #page1 #header a{
+    text-decoration: none;
+    padding: 10px;
+    color: #381664;
+}
+#main #page1 #header h1{
+    margin-left: -150px;
+    font-family: "Syne", sans-serif;
+    letter-spacing: -4%;
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 42px;
+}
+.center{
+    margin: 100px 0;
+    text-align: center;
+}
+.center h2{
+    font-size: 90px;
+    line-height: 90px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin: 50px 0;
+}
+/* Page 2 */
+#page2{
+    margin-bottom: 20px;
+}
+#page2 .projects .project img{
+    height: 290px;
+    width: auto;
+}
+
+#page2 .projects{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+#page2 .projects .project h5{
+    font-size: 20px;
+    font-weight: 400;
+}
+#page2 .projects .project p{
+    font-size: 15px;
+}
+
+/* Page 3 */
+#page3{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background: url(./assets/Rectangle.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 2px solid #381664;
+}
+.left{
+    align-self: center;
+    padding: 90px;
+}
+.left h3{
+    font-size: 55px;
+    padding-bottom: 10px;
+}
+.left p{
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+.left button{
+    background: #440A8F;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
+.right{
+    height: 100%;
+    background: url(./assets/right.png);
+}
