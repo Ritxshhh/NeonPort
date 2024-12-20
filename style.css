@@ -366,3 +366,58 @@ html,body{
     top: 610vh;
 
 }
+
+.subscribe-container {
+    position: absolute;
+    left: 35%;
+    top: 650px;
+    margin-right: 25%;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.social-icons {
+    position:absolute;
+    left: 53%;
+    transform: translate(-85%);
+    top: 750px;
+    background-color: #f0fdf4;
+    display: flex;
+    column-gap: 20px;
+    border: none;
+}
+
+.subscribe-input {
+    margin-right: 12px;
+    border: 1px solid; 
+    padding: 0.5rem; 
+    border-radius: 0.375rem; 
+    padding-right: 80px;
+    background-color: transparent;
+    color: #440A8F;
+}
+
+.subscribe-button{
+    background: #440A8F;
+    width: Hug (135px)px;
+    height: Hug (48px)px;
+    padding: 12px 24px;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    line-height: .8;
+    text-align: left;
+    border: none;
+}
+.icon{
+        height: 48px;
+        width: 48px;
+        background-color: transparent;
+        position: relative; 
+    }
+
+.icon:hover{
+        cursor: pointer;
+        transition: 0.3s ease;
+        transform: scale(1.3);
+    }
